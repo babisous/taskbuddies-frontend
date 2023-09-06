@@ -10259,7 +10259,7 @@ Error generating stack: ` +
 			[l, s, c, r, i, n, e, a, o]
 		);
 	}
-	const V1 = "http://localhost:8000/api",
+	const V1 = "https://taskbuddies-backend.vercel.app/api",
 		wS = {
 			async signup(e) {
 				try {
@@ -15040,7 +15040,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
 		var n = ne(t);
 		return Jo(e, -n);
 	}
-	const Dt = "http://localhost:8000/api",
+	const Dt = "https://taskbuddies-backend.vercel.app/api",
 		ft = {
 			async fetchTasks() {
 				const e = localStorage.getItem("token");
@@ -22017,7 +22017,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
 		}
 	}
 	(nf.prototype = new Error()), (nf.prototype.name = "InvalidTokenError");
-	const so = "http://localhost:8000/api",
+	const so = "https://taskbuddies-backend.vercel.app/api",
 		ks = {
 			async addTag(e, t, n) {
 				const r = localStorage.getItem("token");
@@ -22163,7 +22163,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
 					});
 			},
 		}),
-		un = "http://localhost:8000/api",
+		un = "https://taskbuddies-backend.vercel.app/api",
 		cn = {
 			async createGroup(e) {
 				const n = {
@@ -41366,7 +41366,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
 				],
 			});
 		},
-		Vx = "http://localhost:8000/api",
+		Vx = "https://taskbuddies-backend.vercel.app/api",
 		f8 = {
 			token: localStorage.getItem("token"),
 			async updateUser(e, t, n, r) {
